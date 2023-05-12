@@ -131,12 +131,6 @@ p {
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-bottom: 94px;
 }
 .work-text {
     color: #212121;
@@ -168,6 +162,7 @@ p {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
 }
 .fig-team {
     margin: 30px 20px;
@@ -189,7 +184,6 @@ p {
     letter-spacing: 0.03em;
     text-align: center;
     padding-bottom: 10px;
-    padding-top: 30px;
 }
 .team-job {
     color: #757575;
@@ -390,3 +384,4 @@ li {
     justify-content: space-around;
     column-gap: 30px;
 }
+
