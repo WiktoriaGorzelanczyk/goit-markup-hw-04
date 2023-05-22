@@ -367,6 +367,9 @@ li {
     column-gap: 46px;
     list-style-type: none;
 }
+.icon-desc {
+    padding-bottom: 30px;
+}
 .desc-list {
     list-style-type: none;
     display: flex;
