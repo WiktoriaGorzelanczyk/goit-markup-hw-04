@@ -298,6 +298,7 @@ p {
     float: left;
     padding-top: 24px;
     padding-bottom: 25px;
+    padding-right: 93px;
 
 }
 .title {
@@ -461,7 +462,7 @@ li {
     cursor: pointer;
 }
 .icon {
-    fill: #AFB1B8;
+    fill: #757575;
     margin-right: 10px;
 }
 .icon:hover,
