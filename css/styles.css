@@ -439,6 +439,7 @@ li {
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-top: 12px;
     margin-bottom: 20px;
 }
 .com-footer {
@@ -466,10 +467,12 @@ li {
 .icon:hover,
 .icon:focus {
     fill: #2196F3;
+    cursor: pointer;
 }
 .social-links:hover .icon,
 .social-links:focus .icon {
   fill: #2196F3;
+  cursor: pointer;
 }
 .icon-desc {
     border-radius: 4px;
