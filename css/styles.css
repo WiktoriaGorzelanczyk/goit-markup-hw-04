@@ -28,6 +28,9 @@ img {
     padding: 60px 0;
 }
 .main-first {
+    background-image: url("/images/baner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-color:#2F303A;
     color: white;
     text-align: center;
@@ -387,4 +390,103 @@ li {
     justify-content: space-around;
     column-gap: 30px;
 }
-
+.clients-text {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.clients {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 30px;
+}
+.clients-item {
+    list-style: none;
+}
+.clients-icon {
+    fill: #AFB1B8;
+}
+.clients-link {
+    display: flex;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding: 17.71px 32px 14.25px 32px;
+  }
+.clients-link:hover,
+.clients-link:focus {
+    border-color: #2196F3;
+    color: #2196F3;
+    cursor: pointer;
+}
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
+  fill: #2196F3;
+}
+.join-us {
+    justify-content: flex-start;
+}
+.join-us-text {
+    color: #F5F4FA;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+}
+.com-footer {
+    display: flex;
+    column-gap: 10px;
+}
+.com-link-footer {
+    padding: 12px;
+    fill: #FFFFFF;
+    background-color: #ffffff10;
+    border-radius: 50% 50%;
+    display: flex;
+  }
+.com-link-footer:hover,
+.com-link-footer:focus {
+    fill: #FFFFFF;
+    background-color: #2196F3;
+    border-radius: 50% 50%;
+    cursor: pointer;
+}
+.icon {
+    fill: #AFB1B8;
+    margin-right: 10px;
+}
+.icon:hover,
+.icon:focus {
+    fill: #2196F3;
+}
+.social-links:hover .icon,
+.social-links:focus .icon {
+  fill: #2196F3;
+}
+.icon-desc {
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    padding: 25px 100px;
+}
+.community {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin: 16px 32px 30px 32px;
+}
+.com-links {
+    fill: #AFB1B8;
+    display: flex;
+    padding: 12px;
+}
+.com-links:hover,
+.com-links:focus {
+    fill: #F5F4FA;
+    background-color: #2196f3;
+    border-radius: 50% 50%;
+    cursor: pointer;
+}
