@@ -352,8 +352,6 @@ li {
     align-items: center;
     column-gap: 93px;
 }
-.contact {
-}
 .menu {
     display: flex;
     align-items: center;
@@ -419,7 +417,7 @@ li {
   fill: #2196F3;
 }
 .join-us {
-    justify-content: flex-start;
+    margin-left: 70px;
 }
 .join-us-text {
     color: #F5F4FA;
@@ -427,7 +425,6 @@ li {
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    margin-top: 12px;
     margin-bottom: 20px;
 }
 .com-footer {
@@ -435,11 +432,12 @@ li {
     column-gap: 10px;
 }
 .com-link-footer {
-    padding: 12px;
     fill: #FFFFFF;
     background-color: #ffffff10;
     border-radius: 50% 50%;
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
 .com-link-footer:hover,
 .com-link-footer:focus {
