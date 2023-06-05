@@ -74,12 +74,6 @@ h1 {
     margin: 0 auto;
 }
 h2 {
-    font-size: 14px;
-    font-weight: 270;
-    line-height: .05;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #212121;
 }
 .buttons:hover ,
 .buttons:active,
@@ -195,7 +189,7 @@ p {
     font-weight: 700;
     line-height: 2;
     letter-spacing: 0.06em;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
 }
 .portfolio-type {
     color: #757575;
@@ -217,10 +211,13 @@ p {
     list-style-type: none;
     gap: 30px;
 }
-.portfolio-items:hover,
-.portfolio-items:focus {
+.portfolio-images {
+    display: block;
+    text-decoration: none;
+}
+.portfolio-images:hover,
+.portfolio-images:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
 }
 .portfolio-figa {
     border-bottom: 1px solid  rgba(238, 238, 238, 1);
