@@ -426,6 +426,8 @@ li {
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-bottom: 20px;
+    width: 113px;
+    height: 16px;
 }
 .com-footer {
     display: flex;
@@ -438,6 +440,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 9px;
   }
 .com-link-footer:hover,
 .com-link-footer:focus {
